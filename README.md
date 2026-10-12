@@ -2,6 +2,14 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
+当前正式版：**0.1.47** / versionCode **48**。
+
+## 0.1.47 更新
+
+Release 启用 R8 压缩，改进扫描缓存降级、评论队列取消、媒体读取与下载队列、续火花发送账本、配置快照与热更新、宿主适配诊断、组件隐藏缓存、历史后台加载和设置编辑器。
+
+[完整更新说明](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.1.47.md)
+
 - 正式包名：`io.github.yudigaga.douai`
 - 作用域：`com.ss.android.ugc.aweme`
 - 适配版本：抖音 40.6.0
