@@ -2,13 +2,13 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
-当前正式版：**0.1.50** / versionCode **51**。
+当前正式版：**0.1.51** / versionCode **52**。
 
-## 0.1.50 更新
+## 0.1.51 更新
 
-普通短视频在组件隐藏开启且进度值大于 0 时使用原生可见进度，并保留 124 等透明度设置。自动评论和自动回复独立受各自开关控制。包含系统栏首次隐藏、组件晚插入和共享容器恢复、进度淡入以及 Miuix 评论历史修复。沿用 R8 和原正式签名。
+修复部分机型反复出现“方法查找完成”：成功确认独立持久化，自动重启失败或返回关闭后保留确认；重启中转超时改为提示手动重启。沿用短视频进度、独立自动评论/回复开关、R8 和原正式签名。
 
-[完整更新说明](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.1.50.md)
+[完整更新说明](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.1.51.md)
 
 - 正式包名：`io.github.yudigaga.douai`
 - 作用域：`com.ss.android.ugc.aweme`
