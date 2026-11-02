@@ -2,19 +2,15 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
-当前正式版：**0.2.34** / versionCode **135**。
+当前正式版：**0.2.38** / versionCode **139**。
 
-## 0.2.34 更新
+## 0.2.38 更新
 
-“AI 模型设置”只负责添加、编辑、保存和删除配置，编辑器统一显示“保存”。保存会保留已有全局默认和各功能绑定；首次添加配置也不会自动设为全局默认。
+恢复抖音消息页 AI 联系人原生会话入口。OpenAI Chat / Responses、Claude Messages 与 Gemini 的 SSE 文本增量进入原生消息气泡，并遵循所选模型的流式/非流式设置；联系人继续使用所选模块模型 ID 与头像。
 
-长按快捷菜单“切换模型”先选择“全局默认”“自动回复”“自动评论”或“本地数据分析”，再选择已保存配置。后三项可选择“跟随全局默认”，也可独立选择；私聊、群聊与评论自动回复共用自动回复的绑定，每次操作只修改所选功能。返回不保存，已删除配置仍需重新选择。原自动回复、自动评论与分析页的模型选择入口继续保留。
+累计保留 0.2.35 的联系人层级显示、回复浮窗移除后恢复及评论回复历史分页；0.2.36 的联系人区域展开与空间不足时滚动；0.2.37 的 40.8.0 Flow 联系人入口。0.2.38 的消息页入口改回原生 `//chat`，保留模块联系人 ID 和头像。
 
-修复全局切换误取消独立自动化请求的问题：三个自动化 Hook 按本功能绑定及实际选中的完整配置判断变化。独立绑定未变时，切换全局默认或保存其它模型，当前请求继续运行；修改本功能绑定或其选中配置时仍走原有取消流程。接口、密钥、流式、提示词、生成期限、语音处理、重试、文本回退和原生发送继续沿用原流程。
-
-发布 APK 为 **5,413,200 字节**，SHA-256：`A1CAE1AF5922E7A0AE14EE495570F95036C1C51F898CAFC1FF3519B7EA9DEAEA`。本地 20 个 suite、340 项相关专项，以及最终签名 APK 的 5 项合同全部通过，合计 **21 个 suite / 345 次执行，零失败、零错误、零跳过**。相关专项中 18 类完整执行，快捷 Miuix 交互类只执行 2 个相关方法，设置参考类只执行 8 个相关方法。Release Lint **0 错误、54 条既有警告、0 新增未审代码警告**，长期证书 v3 与 16 KiB 对齐通过。
-
-本地未运行完整测试集，也未重新执行双宿主全 DEX 规则扫描；未进行真机、真实 LSPosed、模拟器、真实账号模型请求或 TTS 合成验收。旧版服务超时和语音失败仍需对应设备日志核对，各历史版本结果不计作本版验证；远端 CI 独立核对。[完整发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.34/docs/release-0.2.34.md) · [模型选择说明](https://github.com/yudigaga/DouAi/blob/v0.2.34/docs/2026-10-29_model-routing.md)
+发布 APK 为 **5,413,226 字节**，SHA-256：`4ABEC87B6268C82A73C34DCB2AF9B891734629DE11D625753C8C511A7A58004D`。长期证书 v3 签名及 16 KiB 对齐通过。按用户要求，本版未运行测试或完整 Release Lint；构建自带 vital Lint 通过。未进行新包真机、LSPosed 或真实服务验证；40.8.0 Doubao 整页 SSE 未验证，不作支持声明。详情见[发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.38/docs/release-0.2.38.md)。
 
 ## 既有功能
 
@@ -30,7 +26,7 @@ Fish Audio 与 Breeze Blue 音色目录保留各自原生的标签筛选、已�
 
 自动回复、自动评论和本地数据分析继续支持各自选择已保存的供应商配置，默认跟随全局；本地分析可单独编辑二级提示词。配置备份、PNG/PDF 报告导出和既有语音/自动化功能保留，各历史版本的测试结果不累计为本版验证。
 
-[完整更新说明](https://github.com/yudigaga/DouAi/blob/v0.2.34/docs/release-0.2.34.md) · [Fish Audio 说明](https://github.com/yudigaga/DouAi/blob/v0.2.34/docs/fish-speech.md) · [Breeze Blue 说明](https://github.com/yudigaga/DouAi/blob/v0.2.34/docs/breeze-speech.md) · [源码仓库](https://github.com/yudigaga/DouAi) · [GitHub 正式版](https://github.com/yudigaga/DouAi/releases)
+[完整更新说明](https://github.com/yudigaga/DouAi/blob/v0.2.38/docs/release-0.2.38.md) · [源码仓库](https://github.com/yudigaga/DouAi) · [GitHub 正式版](https://github.com/yudigaga/DouAi/releases)
 
 ## 免责协议
 
