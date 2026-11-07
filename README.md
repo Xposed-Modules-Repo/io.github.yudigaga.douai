@@ -2,17 +2,21 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
-当前正式版：**0.2.38** / versionCode **139**。
+当前正式版：**0.2.39** / versionCode **140**。
 
-## 0.2.38 更新
+## 0.2.39 更新
 
-恢复抖音消息页 AI 联系人原生会话入口。OpenAI Chat / Responses、Claude Messages 与 Gemini 的 SSE 文本增量进入原生消息气泡，并遵循所选模型的流式/非流式设置；联系人继续使用所选模块模型 ID 与头像。
+文本转语音新增默认关闭的随机音色，每次生成重新选择。小随机在当前来源内选音色；大随机从所选来源中选择，可多选系统引擎、第三方、MiniMax、Breeze Blue 和 Fish Audio，仅使用配置及音色目录有效的来源。
 
-累计保留 0.2.35 的联系人层级显示、回复浮窗移除后恢复及评论回复历史分页；0.2.36 的联系人区域展开与空间不足时滚动；0.2.37 的 40.8.0 Flow 联系人入口。0.2.38 的消息页入口改回原生 `//chat`，保留模块联系人 ID 和头像。
+大随机的“音色列表管理”可直接刷新已选网络来源，查看有效音色数量和排除原因，无需切换手动来源。Fish/Breeze 沿用已有筛选，刷新首屏最多 20 项，更多音色仍从各自选择器加载；失败保留旧缓存，关闭管理窗口取消请求。诊断记录来源范围、候选数量、选中来源及经过安全过滤的音色 ID。
 
-发布 APK 为 **5,413,226 字节**，SHA-256：`4ABEC87B6268C82A73C34DCB2AF9B891734629DE11D625753C8C511A7A58004D`。长期证书 v3 签名及 16 KiB 对齐通过。按用户要求，本版未运行测试或完整 Release Lint；构建自带 vital Lint 通过。未进行新包真机、LSPosed 或真实服务验证；40.8.0 Doubao 整页 SSE 未验证，不作支持声明。详情见[发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.38/docs/release-0.2.38.md)。
+选择使用请求快照，不改写原有手动音色；系统来源仅使用匹配语言的离线音色。MiniMax 混音及 Fish 多说话人/参考音频不参与随机单音色。原有合成参数、超时、发布重试及文本回退规则保留。
+
+APK 为 **5,446,028 字节**，SHA-256：`A8635CEDD19A4BFA13B83D5CF9B9F7FB564C1B98CC55FF699D1F935C2DED2CC6`。严格本地验收 **2,955 项零失败、零错误、零跳过**，Release Lint **0 错误、54 条既有警告、0 新增未审警告**；长期证书 v3 和 16 KiB 对齐通过。新包真机、实际 LSPosed、真实 TTS 服务及抖音语音发送未验。详情见[发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.39/docs/release-0.2.39.md)。
 
 ## 既有功能
+
+消息页 AI 联系人使用原生 `//chat` 会话入口，保留模块模型 ID 和头像。Chat/Responses、Claude Messages 与 Gemini 按模型流式设置显示 SSE 增量；联系人区域按数量展开，空间不足时滚动。回复浮窗恢复和评论回复历史分页保留；40.8.0 Doubao 整页 SSE 未建立验证证据。
 
 保留默认关闭的“仅模块控制倍速”和 **0.75、1、1.25、1.5、2、3、4 倍**七档预设：开启后从模块 1 倍开始，长按采用所选预设，再长按回到 1 倍，跨视频保持当前选择。原开关值保留，关闭模式后恢复；短按和滑动沿用原生流程。旧倍率按最近档位读取，等距取较低。目标提示与物理速度测量分开，4 倍实际效果仍需设备复测。SDK 异步队列、缓存跳过和原生速度 option 60 的保护继续限定为模块已认领的具体对象。
 
@@ -26,7 +30,7 @@ Fish Audio 与 Breeze Blue 音色目录保留各自原生的标签筛选、已�
 
 自动回复、自动评论和本地数据分析继续支持各自选择已保存的供应商配置，默认跟随全局；本地分析可单独编辑二级提示词。配置备份、PNG/PDF 报告导出和既有语音/自动化功能保留，各历史版本的测试结果不累计为本版验证。
 
-[完整更新说明](https://github.com/yudigaga/DouAi/blob/v0.2.38/docs/release-0.2.38.md) · [源码仓库](https://github.com/yudigaga/DouAi) · [GitHub 正式版](https://github.com/yudigaga/DouAi/releases)
+[完整更新说明](https://github.com/yudigaga/DouAi/blob/v0.2.39/docs/release-0.2.39.md) · [源码仓库](https://github.com/yudigaga/DouAi) · [GitHub 正式版](https://github.com/yudigaga/DouAi/releases)
 
 ## 免责协议
 
