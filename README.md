@@ -2,15 +2,17 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
-当前正式版：**0.2.48** / versionCode **149**。
+当前正式版：**0.2.53** / versionCode **154**。
 
-## 0.2.48 更新
+## 0.2.53 更新
 
-本次累计完善抖音 41.0.0 评论 AI 搜索与原生解析、当前作品图文/视频媒体上下文、追问和相关视频分页；修复手动 AI 聊天及 AI 联系人视频封面的安全候选回退、排队补发和重试。抖音 40.6.0、40.8.0 原适配保留。
+评论、回复历史增加查看评论、回复、作品或会话的定位入口；默认关闭的首页右滑侧栏支持 23 项可选模块页面，默认六项。修复侧栏缓存、组合卡识别、重复模块卡和通知下方排序，关闭或进入个人侧栏恢复原内容与顺序。新增侧栏适配限已核实的抖音 41.0.0 / 410001 / 41009900，40.6/40.8 既有规则保留。
 
-APK 为 **5,584,708 字节**，SHA-256：`A06F95FAB9D522324E7D2EB30F25BA893348390E52C941F20426D27AC28A74B3`。长期证书 v3 签名和 16 KiB 对齐通过，构建自带 vital Lint 通过；`AiTestChatDialogTest` 本地定向测试通过。GitHub CI `42488794909` 的 Release 构建通过，但完整测试/APK 合同 3,026 项中 1 失败、19 跳过，Release Lint 未运行；按维护者要求仍发布。用户反馈人工测试通过，设备及覆盖范围未记录。GitHub 与 LSPosed 每端仅附同一 APK。
+APK 为 **5,617,479 字节**，SHA-256：`8940AFA9BB7719F721BBBC09C286FBE9A47F5469E52243A9C5FDC33B3732CDDC`。长期证书 v3、16 KiB 对齐和构建自带 vital Lint 通过。本版未运行测试、独立 Release Lint 或 APK 合同，真机与真实服务未验；按维护者要求直接发布，不等待 CI。GitHub 与 LSPosed 每端仅附同一 APK。
 
-安装后完全退出并重新启动抖音。详情见[0.2.48 发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.48/docs/release-0.2.48.md)。此前版本见[0.2.41 发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.41/docs/release-0.2.41.md)。
+[下载 APK](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/154-0.2.53/DouAi-0.2.53-release.apk) · [发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.53/docs/release-0.2.53.md)
+
+安装后彻底重启抖音，在“模块设置 → 界面相关”开启首页右滑并选择侧栏显示项。实际入口、去重、排序及历史跳转仍需设备确认。
 
 ## 既有功能
 
