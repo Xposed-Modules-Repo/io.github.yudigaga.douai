@@ -2,17 +2,17 @@
 
 DouAi 是抖音增强模块，作者 **yudigaga**。
 
-当前正式版：**0.2.53** / versionCode **154**。
+当前正式版：**0.2.54** / versionCode **155**。
 
-## 0.2.53 更新
+## 0.2.54 更新
 
-评论、回复历史增加查看评论、回复、作品或会话的定位入口；默认关闭的首页右滑侧栏支持 23 项可选模块页面，默认六项。修复侧栏缓存、组合卡识别、重复模块卡和通知下方排序，关闭或进入个人侧栏恢复原内容与顺序。新增侧栏适配限已核实的抖音 41.0.0 / 410001 / 41009900，40.6/40.8 既有规则保留。
+新增默认关闭的“锁定最高画质”：在“模块设置 → 自动播放 → 锁定最高画质”中开启并彻底重启抖音，自动选择当前视频原生支持的最高档位，通过实际播放器读回进行有限纠偏。仅适配已核实的抖音 41.0.0 / 410001 / 41009900，不伪造 4K 或解码支持；旧版适配保留。
 
-APK 为 **5,617,479 字节**，SHA-256：`8940AFA9BB7719F721BBBC09C286FBE9A47F5469E52243A9C5FDC33B3732CDDC`。长期证书 v3、16 KiB 对齐和构建自带 vital Lint 通过。本版未运行测试、独立 Release Lint 或 APK 合同，真机与真实服务未验；按维护者要求直接发布，不等待 CI。GitHub 与 LSPosed 每端仅附同一 APK。
+关闭会停止后续保持，当前档位可能保留至播放页重建，重启后恢复原生选择，不写入原生持久化画质偏好。实际切档与保持效果仍需设备确认。
 
-[下载 APK](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/154-0.2.53/DouAi-0.2.53-release.apk) · [发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.53/docs/release-0.2.53.md)
+APK 为 **5,633,869 字节**，SHA-256：`BA54B5EA9C0AD1AD76E1D61D66EE032BC726687F8173726923151739D014B0A7`。长期证书 v3、16 KiB 对齐和构建自带 vital Lint 通过。本版未运行测试、完整 Lint 或 APK 合同，真机与真实服务未验；按维护者要求直接发布，不等待 CI。GitHub 与 LSPosed 每端仅附同一 APK。
 
-安装后彻底重启抖音，在“模块设置 → 界面相关”开启首页右滑并选择侧栏显示项。实际入口、去重、排序及历史跳转仍需设备确认。
+[下载 APK](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/155-0.2.54/DouAi-0.2.54-release.apk) · [发布记录](https://github.com/yudigaga/DouAi/blob/v0.2.54/docs/release-0.2.54.md)
 
 ## 既有功能
 
