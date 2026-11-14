@@ -4,18 +4,18 @@
 
 DouAi 是面向抖音的增强模块，作者 **yudigaga**。本仓库提供 LSPosed 模块介绍及正式 APK。
 
-当前正式版：**0.2.66 / 167**。
+当前正式版：**0.2.71 / 172**。
 
-[下载 DouAi-0.2.66.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/167-0.2.66/DouAi-0.2.66.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
+[下载 DouAi-0.2.71-release.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/172-0.2.71/DouAi-0.2.71-release.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
 
-本版修复组件隐藏开启时评论区锁屏再点亮后的底部导航恢复，并完成试听和本地分析读取等优化。详细变化与验证范围见 [发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.66.md)。
+本版增加抖音 41 的播放书签、快进后退、章节字幕搜索、已加载评论查找与语音转写，以及默认关闭的“减少已看作品”，并修正画面取景与过渡遮罩闪烁。详细变化与验证范围见 [发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.71.md)。
 
 ## 核心功能
 
 - 推荐流与顶部标签筛选、组件隐藏及独立透明度调整。
-- 播放手势、自动播放、播放速度、画面裁切与沉浸显示。
+- 播放手势、自动播放、播放速度、书签、章节字幕搜索、画面裁切与沉浸显示。
 - 原生和第三方下载扩展、自定义保存目录、下载任务进度与取消。
-- 评论与语音工具，支持系统及第三方语音、音色选择与随机音色。
+- 已加载评论查找、宿主语音转写、评论工具，支持系统及第三方语音、音色选择与随机音色。
 - 自动回复、自动评论和续火花，支持名单范围、内容筛选及 AI 模型。
 - 用户资料与聚合目录、原生用户搜索、关系筛选及群聊范围配置。
 - 模型与分层提示词、素材测试、AI 消息联系人和独立对话。
@@ -51,7 +51,7 @@ DouAi 是面向抖音的增强模块，作者 **yudigaga**。本仓库提供 LSP
 
 - [文档目录](https://github.com/yudigaga/DouAi/blob/main/docs/README.md)。
 - [完整帮助](https://github.com/yudigaga/DouAi/blob/main/docs/help.md)。
-- [0.2.64 发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.64.md)。
+- [0.2.71 发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.71.md)。
 - [构建与发布状态](https://github.com/yudigaga/DouAi/blob/main/docs/releasing.md)。
 - [个人内容年志](https://github.com/yudigaga/DouAi/blob/main/docs/portrait-analysis.md)。
 
