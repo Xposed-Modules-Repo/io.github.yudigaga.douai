@@ -4,11 +4,11 @@
 
 DouAi 是面向抖音的增强模块，作者 **yudigaga**。本仓库提供 LSPosed 模块介绍及正式 APK。
 
-当前正式版：**0.2.89 / 190**。
+当前正式版：**0.2.93 / 194**。
 
-[下载 DouAi-0.2.89-release.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/190-0.2.89/DouAi-0.2.89-release.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
+[下载 DouAi-0.2.93-release.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/194-0.2.93/DouAi-0.2.93-release.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
 
-本版累计扩展播放与阅读工具、评论整理和字幕笔记，完善导航玻璃与重力感应、自定义图标、显示项与选中反馈，并修正进度条触控、布局避让及配置热更新。详细变化与验证范围见 [发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.89.md)。
+本版整理设置首页和重复入口，新增“最近配置”状态，并改进抖音 41 的液态玻璃、重力感应布局和两态内置图标。详细变化与验证范围见 [发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.93.md)。
 
 ## 核心功能
 
@@ -54,7 +54,7 @@ DouAi 是面向抖音的增强模块，作者 **yudigaga**。本仓库提供 LSP
 
 - [文档目录](https://github.com/yudigaga/DouAi/blob/main/docs/README.md)。
 - [完整帮助](https://github.com/yudigaga/DouAi/blob/main/docs/help.md)。
-- [0.2.89 发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.89.md)。
+- [0.2.93 发布记录](https://github.com/yudigaga/DouAi/blob/main/docs/release-0.2.93.md)。
 - [构建与发布状态](https://github.com/yudigaga/DouAi/blob/main/docs/releasing.md)。
 - [个人内容年志](https://github.com/yudigaga/DouAi/blob/main/docs/portrait-analysis.md)。
 
