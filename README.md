@@ -4,11 +4,11 @@
 
 DouAi 是面向抖音的增强模块，作者 **yudigaga**。本仓库提供 LSPosed 模块介绍及正式 APK。
 
-当前正式版：**0.3.1 / 202**。
+当前正式版：**0.3.2 / 203**。
 
-[下载 DouAi-0.3.1-release.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/202-0.3.1/DouAi-0.3.1-release.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
+[下载 DouAi-0.3.2-release.apk](https://github.com/Xposed-Modules-Repo/io.github.yudigaga.douai/releases/download/203-0.3.2/DouAi-0.3.2-release.apk) · [源码仓库](https://github.com/yudigaga/DouAi)
 
-本版调整抖音 41 竖屏视频铺满后的原生边缘色带遮罩，改进侧栏与控件恢复，并完善九宫格双击点赞和导航图标。手动切页偶发短黑增加诊断。详细变化与验证范围见 [发布记录](https://github.com/yudigaga/DouAi/blob/v0.3.1/docs/release-0.3.1.md)。
+本版更新离线帮助，支持在 AI 联系人与工作 AI 中共用、编写和管理 Skills，新增在线 MCP 工具管理，并改进抖音 41 竖屏取景恢复。详情见 [0.3.2 发布记录](https://github.com/yudigaga/DouAi/releases/tag/v0.3.2)。
 
 ## 核心功能
 
